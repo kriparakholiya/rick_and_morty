@@ -1,0 +1,143 @@
+.main_section{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  justify-content: center;
+}
+body{
+  cursor: pointer;
+}
+.spacer{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.bgrey{
+  background-color: #272B33;
+  align-items: center;
+  justify-content: center;
+}
+.bgclr{
+  background-color: #3C3E44;
+  color: white;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.section{
+  width: 600px;
+  height: 220px;
+  display: flex;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+img{
+  /* width: 100%; */
+  height: 100%;
+  object-fit: cover;
+}
+h2{
+  font-weight: 900;
+  margin-bottom: 0px !important;
+  transition: .2s;
+  font-size:30px !important;
+}
+.content{
+  margin:15px;
+}
+span{
+  font-weight: 500;
+  transition: .2s;
+
+}
+p{
+  margin-bottom: 0px !important;
+  color: #9E9E9E;
+  font-weight: 500;
+}
+.mt-3 span:hover{
+  color: rgb(255, 152, 0);
+  transition: .2s;
+}
+h2:hover{
+  color: rgb(255, 152, 0);
+  transition: .2s;
+}
+.logo_left img{
+  width: 55px;
+  margin-left: 5px;
+}
+ul{
+  list-style: none;
+}
+ul li a{
+  font-weight: 700;
+  font-size: 17px;
+}
+.btn_h{
+  border: 1px solid rgb(255, 152, 0) !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  border-radius: 10px;
+  padding: 9px 17px;
+}
+a{
+  text-decoration: none !important;
+  color: rgb(51, 51, 51) !important;
+}
+h1{
+  font-size: 100px !important;
+  font-weight: 900 !important;
+}
+footer{
+  background-color: #202329;
+  color: rgb(158, 158, 158);
+  padding: 80px;
+}
+footer span{
+  font-size: 14px;
+  font-weight: 600;
+  transition: .2s;
+}
+.green_icon{
+  background-color: rgb(85, 204, 68);
+  border-radius: 100%;
+  height: 8px;
+  width: 8px;
+}
+.last ul{
+  display: inline-block;
+}
+.last span{
+  font-weight: normal;
+}
+.last span ul li{
+  font-size: 11px;
+}
+.last span a{
+  color: white !important;
+  border-bottom: 1px solid rgb(255, 152, 0);
+  transition: .2s;
+
+}
+.last span a:hover{
+  color:rgb(255, 152, 0) !important;
+  border: none;
+  transition: .2s;
+}
+.s_hover:hover{
+  color:rgb(255, 152, 0);
+  transition: .2s;
+}
+.f_icons ul li:hover{
+  color:rgb(255, 152, 0);
+  transition: .2s;
+}
+.right_social ul>li>a:hover{
+  color:rgb(255, 152, 0) !important;
+  transition: .2s;
+}
+.right_social ul>:last-child>a:hover{
+  color: white !important;
+  background-color: rgb(255, 152, 0) !important;
+  transition: .2s;
+}
